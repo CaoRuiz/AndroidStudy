@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/zonelue003/Desktop/AndroidStudy/pLASample/build/intermediates/res/merged/debug/drawable-hdpi/empty_photo.png",
+        "source": "/Users/zonelue003/Desktop/AndroidStudy/pLASample/src/main/res/drawable-hdpi/empty_photo.png"
+    },
+    {
+        "merged": "/Users/zonelue003/Desktop/AndroidStudy/pLASample/build/intermediates/res/merged/debug/drawable-hdpi/xlistview_arrow.png",
+        "source": "/Users/zonelue003/Desktop/AndroidStudy/pLASample/src/main/res/drawable-hdpi/xlistview_arrow.png"
+    },
+    {
+        "merged": "/Users/zonelue003/Desktop/AndroidStudy/pLASample/build/intermediates/res/merged/debug/drawable-hdpi/ic_launcher.png",
+        "source": "/Users/zonelue003/Desktop/AndroidStudy/pLASample/src/main/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/zonelue003/Desktop/AndroidStudy/pLASample/build/intermediates/res/merged/debug/drawable-hdpi/news_item_bg.9.png",
+        "source": "/Users/zonelue003/Desktop/AndroidStudy/pLASample/src/main/res/drawable-hdpi/news_item_bg.9.png"
+    }
+]

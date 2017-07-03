@@ -1,0 +1,440 @@
+[
+    {
+        "outputFile": "/Users/zonelue003/Desktop/AndroidStudy/pLASample/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 54,
+                    "endOffset": 105
+                },
+                "from": {
+                    "file": "/Users/zonelue003/Desktop/AndroidStudy/pLASample/src/main/res/values/pla__attrs.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 693,
+                        "endColumn": 55,
+                        "endOffset": 744
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 110,
+                    "endColumn": 51,
+                    "endOffset": 157
+                },
+                "from": {
+                    "file": "/Users/zonelue003/Desktop/AndroidStudy/pLASample/src/main/res/values/pla__attrs.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 749,
+                        "endColumn": 52,
+                        "endOffset": 797
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 175,
+                    "startColumn": 4,
+                    "startOffset": 9126,
+                    "endColumn": 42,
+                    "endOffset": 9164
+                },
+                "from": {
+                    "file": "/Users/zonelue003/Desktop/AndroidStudy/pLASample/src/main/res/values/ids.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 4,
+                        "endColumn": 31,
+                        "endOffset": 110
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 176,
+                    "startColumn": 4,
+                    "startOffset": 9169,
+                    "endColumn": 46,
+                    "endOffset": 9211
+                },
+                "from": {
+                    "file": "/Users/zonelue003/Desktop/AndroidStudy/pLASample/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endColumn": 46,
+                        "endOffset": 99
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 177,
+                    "startColumn": 4,
+                    "startOffset": 9216,
+                    "endColumn": 58,
+                    "endOffset": 9270
+                },
+                "from": {
+                    "file": "/Users/zonelue003/Desktop/AndroidStudy/pLASample/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 296,
+                        "endColumn": 58,
+                        "endOffset": 350
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 178,
+                    "startColumn": 4,
+                    "startOffset": 9275,
+                    "endColumn": 63,
+                    "endOffset": 9334
+                },
+                "from": {
+                    "file": "/Users/zonelue003/Desktop/AndroidStudy/pLASample/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 105,
+                        "endColumn": 63,
+                        "endOffset": 164
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 179,
+                    "startColumn": 4,
+                    "startOffset": 9339,
+                    "endColumn": 53,
+                    "endOffset": 9388
+                },
+                "from": {
+                    "file": "/Users/zonelue003/Desktop/AndroidStudy/pLASample/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 241,
+                        "endColumn": 53,
+                        "endOffset": 290
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 180,
+                    "startColumn": 4,
+                    "startOffset": 9393,
+                    "endColumn": 69,
+                    "endOffset": 9458
+                },
+                "from": {
+                    "file": "/Users/zonelue003/Desktop/AndroidStudy/pLASample/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 170,
+                        "endColumn": 69,
+                        "endOffset": 235
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 181,
+                    "startColumn": 4,
+                    "startOffset": 9463,
+                    "endColumn": 61,
+                    "endOffset": 9520
+                },
+                "from": {
+                    "file": "/Users/zonelue003/Desktop/AndroidStudy/pLASample/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 618,
+                        "endColumn": 61,
+                        "endOffset": 675
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 182,
+                    "startColumn": 4,
+                    "startOffset": 9525,
+                    "endColumn": 62,
+                    "endOffset": 9583
+                },
+                "from": {
+                    "file": "/Users/zonelue003/Desktop/AndroidStudy/pLASample/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 681,
+                        "endColumn": 62,
+                        "endOffset": 739
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 183,
+                    "startColumn": 4,
+                    "startOffset": 9588,
+                    "endColumn": 65,
+                    "endOffset": 9649
+                },
+                "from": {
+                    "file": "/Users/zonelue003/Desktop/AndroidStudy/pLASample/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 487,
+                        "endColumn": 65,
+                        "endOffset": 548
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 184,
+                    "startColumn": 4,
+                    "startOffset": 9654,
+                    "endColumn": 61,
+                    "endOffset": 9711
+                },
+                "from": {
+                    "file": "/Users/zonelue003/Desktop/AndroidStudy/pLASample/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 8,
+                        "startOffset": 360,
+                        "endColumn": 65,
+                        "endOffset": 417
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 185,
+                    "startColumn": 4,
+                    "startOffset": 9716,
+                    "endColumn": 62,
+                    "endOffset": 9774
+                },
+                "from": {
+                    "file": "/Users/zonelue003/Desktop/AndroidStudy/pLASample/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 423,
+                        "endColumn": 62,
+                        "endOffset": 481
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 186,
+                    "startColumn": 4,
+                    "startOffset": 9779,
+                    "endColumn": 62,
+                    "endOffset": 9837
+                },
+                "from": {
+                    "file": "/Users/zonelue003/Desktop/AndroidStudy/pLASample/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 554,
+                        "endColumn": 62,
+                        "endOffset": 612
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 187,
+                    "startColumn": 4,
+                    "startOffset": 9842,
+                    "endColumn": 57,
+                    "endOffset": 9895
+                },
+                "from": {
+                    "file": "/Users/zonelue003/Desktop/AndroidStudy/pLASample/src/main/res/values/styles.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 17,
+                        "endColumn": 58,
+                        "endOffset": 71
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 188,
+                    "startColumn": 4,
+                    "startOffset": 9900,
+                    "endLine": 194,
+                    "endColumn": 12,
+                    "endOffset": 10246
+                },
+                "from": {
+                    "file": "/Users/zonelue003/Desktop/AndroidStudy/pLASample/src/main/res/values/ptr_default_style.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 560,
+                        "endLine": 21,
+                        "endColumn": 12,
+                        "endOffset": 906
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 195,
+                    "startColumn": 4,
+                    "startOffset": 10251,
+                    "endLine": 200,
+                    "endColumn": 12,
+                    "endOffset": 10522
+                },
+                "from": {
+                    "file": "/Users/zonelue003/Desktop/AndroidStudy/pLASample/src/main/res/values/ptr_default_style.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 279,
+                        "endLine": 13,
+                        "endColumn": 12,
+                        "endOffset": 550
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 201,
+                    "startColumn": 4,
+                    "startOffset": 10527,
+                    "endLine": 205,
+                    "endColumn": 12,
+                    "endOffset": 10741
+                },
+                "from": {
+                    "file": "/Users/zonelue003/Desktop/AndroidStudy/pLASample/src/main/res/values/ptr_default_style.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 6,
+                        "endColumn": 12,
+                        "endOffset": 269
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 206,
+                    "startColumn": 4,
+                    "startOffset": 10746,
+                    "endLine": 212,
+                    "endColumn": 12,
+                    "endOffset": 11116
+                },
+                "from": {
+                    "file": "/Users/zonelue003/Desktop/AndroidStudy/pLASample/src/main/res/values/ptr_default_style.xml",
+                    "position": {
+                        "startLine": 49,
+                        "startColumn": 4,
+                        "startOffset": 2146,
+                        "endLine": 55,
+                        "endColumn": 12,
+                        "endOffset": 2516
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 213,
+                    "startColumn": 4,
+                    "startOffset": 11121,
+                    "endLine": 219,
+                    "endColumn": 12,
+                    "endOffset": 11511
+                },
+                "from": {
+                    "file": "/Users/zonelue003/Desktop/AndroidStudy/pLASample/src/main/res/values/ptr_default_style.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 916,
+                        "endLine": 29,
+                        "endColumn": 12,
+                        "endOffset": 1306
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 220,
+                    "startColumn": 4,
+                    "startOffset": 11516,
+                    "endLine": 228,
+                    "endColumn": 12,
+                    "endOffset": 11984
+                },
+                "from": {
+                    "file": "/Users/zonelue003/Desktop/AndroidStudy/pLASample/src/main/res/values/ptr_default_style.xml",
+                    "position": {
+                        "startLine": 39,
+                        "startColumn": 4,
+                        "startOffset": 1668,
+                        "endLine": 47,
+                        "endColumn": 12,
+                        "endOffset": 2136
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 229,
+                    "startColumn": 4,
+                    "startOffset": 11989,
+                    "endLine": 235,
+                    "endColumn": 12,
+                    "endOffset": 12339
+                },
+                "from": {
+                    "file": "/Users/zonelue003/Desktop/AndroidStudy/pLASample/src/main/res/values/ptr_default_style.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 4,
+                        "startOffset": 1312,
+                        "endLine": 37,
+                        "endColumn": 12,
+                        "endOffset": 1662
+                    }
+                }
+            }
+        ]
+    }
+]
