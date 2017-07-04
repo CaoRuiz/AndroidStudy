@@ -48,7 +48,7 @@ public class WaterfallFlowAdapter extends RecyclerView.Adapter<WaterfallFlowAdap
     @Override
     public WaterfallFlowViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         view = LayoutInflater.from(parent.getContext()).inflate(R.layout.adapter_waterfall_flow, null);
-        view.setOnClickListener(new View.OnClickListener() {
+        /*view.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
@@ -56,9 +56,8 @@ public class WaterfallFlowAdapter extends RecyclerView.Adapter<WaterfallFlowAdap
                     //注意这里使用getTag方法获取数据
                     mOnItemClickListener.onItemClick(v, (Integer) v.getTag());
                 }
-
             }
-        });
+        });*/
         return new WaterfallFlowViewHolder(view);
     }
 
@@ -66,7 +65,7 @@ public class WaterfallFlowAdapter extends RecyclerView.Adapter<WaterfallFlowAdap
     public void onBindViewHolder(final WaterfallFlowViewHolder holder, int position) {
         //to do bind view
         //把数据绑到每个itemView上；
-        //holder.itemView.setTag(list.get(position));
+        holder.itemView.setTag(position);
         //由于需要实现瀑布流的效果,所以就需要动态的改变控件的高度了
         ViewGroup.LayoutParams params = holder.cardView.getLayoutParams();
         params.height = heightList.get(position);

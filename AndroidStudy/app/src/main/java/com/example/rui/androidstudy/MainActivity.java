@@ -1,6 +1,5 @@
 package com.example.rui.androidstudy;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.os.Bundle;
@@ -11,8 +10,6 @@ import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.support.v7.widget.helper.ItemTouchHelper;
 import android.view.View;
 import android.widget.Toast;
-
-import com.example.rui.androidstudy.View.SlidingMenu;
 import com.example.rui.androidstudy.adapter.WaterfallFlowAdapter;
 import com.example.rui.androidstudy.auxiliary.ItemTouchHelperCallback;
 import com.example.rui.androidstudy.info.FunctionInfo;
@@ -49,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
         layoutManager.setGapStrategy(StaggeredGridLayoutManager.GAP_HANDLING_NONE);
         recyclerView.setLayoutManager(layoutManager);
         //设置布局管理器
-        ItemTouchHelper helper = new ItemTouchHelper(new ItemTouchHelperCallback(list,waterfallFlowAdapter));
+        ItemTouchHelper helper = new ItemTouchHelper(new ItemTouchHelperCallback(list, waterfallFlowAdapter));
         helper.attachToRecyclerView(recyclerView);
         //设置添加,移除item的动画,DefaultItemAnimator为默认的
         recyclerView.setItemAnimator(new DefaultItemAnimator());
@@ -66,12 +63,12 @@ public class MainActivity extends AppCompatActivity {
         waterfallFlowAdapter.setOnItemClickListener(new WaterfallFlowAdapter.OnRecyclerItemClickListener() {
             @Override
             public void onItemClick(View view, int position) {
-                switch(position){
-                    case 0:{
-                    startActivity(new Intent(MainActivity.this,SlidingMenuActivity.class));
+                switch (position) {
+                    case 0: {
+                        startActivity(new Intent(MainActivity.this, SlidingMenuActivity.class));
                     }
                     break;
-                    case 1:{
+                    case 1: {
 
                     }
                     break;
