@@ -1,1 +1,2 @@
-# AndroidStudy  第一次提交项目
+# AndroidStudy  
+关于Android的各种功能学习demo
