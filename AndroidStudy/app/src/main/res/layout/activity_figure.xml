@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rui.androidstudy.figure.ShapesActivity">
+
+    <com.example.rui.androidstudy.figure.ShapesActivity.MyView
+        android:layout_width="394dp"
+        android:layout_height="424dp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="271dp"
+        android:layout_height="91dp"
+        tools:layout_editor_absoluteY="421dp"
+        tools:layout_editor_absoluteX="0dp">
+
+        <RadioButton
+            android:id="@+id/rb_line"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="直线" />
+
+        <RadioButton
+            android:id="@+id/rb_rectangular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="矩形" />
+    </RadioGroup>
+
+</android.support.constraint.ConstraintLayout>

@@ -12,6 +12,7 @@ import android.view.View;
 import android.widget.Toast;
 import com.example.rui.androidstudy.adapter.WaterfallFlowAdapter;
 import com.example.rui.androidstudy.auxiliary.ItemTouchHelperCallback;
+import com.example.rui.androidstudy.figure.ShapesActivity;
 import com.example.rui.androidstudy.info.FunctionInfo;
 
 import java.util.ArrayList;
@@ -69,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                     break;
                     case 1: {
-
+                        startActivity(new Intent(MainActivity.this, ShapesActivity.class));
                     }
                     break;
                 }
@@ -88,7 +89,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void creatData() {
         setFunctionInfo("抽屉功能", R.drawable.test2);
-        setFunctionInfo("抽屉功能", R.drawable.test2);
+        setFunctionInfo("画画功能", R.drawable.test2);
         setFunctionInfo("抽屉功能", R.drawable.test2);
         setFunctionInfo("抽屉功能", R.drawable.test2);
         setFunctionInfo("抽屉功能", R.drawable.test2);

@@ -16,7 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SlidingMenuActivity"></activity>
+        <activity android:name=".SlidingMenuActivity" />
+        <activity android:name=".figure.ShapesActivity"></activity>
     </application>
 
 </manifest>
