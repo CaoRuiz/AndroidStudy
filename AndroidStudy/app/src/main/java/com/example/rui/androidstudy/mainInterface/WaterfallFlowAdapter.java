@@ -1,4 +1,4 @@
-package com.example.rui.androidstudy.adapter;
+package com.example.rui.androidstudy.mainInterface;
 
 import android.content.Context;
 import android.support.v7.widget.CardView;
@@ -11,14 +11,10 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.example.rui.androidstudy.R;
-import com.example.rui.androidstudy.auxiliary.ItemTouchHelperViewHolder;
-import com.example.rui.androidstudy.info.FunctionInfo;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
-
-import butterknife.Bind;
 
 /**
  * Created by zonelue003 on 2017/6/21.

@@ -5,9 +5,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.rui.androidstudy.figure.ShapesActivity">
+    tools:context="com.example.rui.androidstudy.drawing.DrawingActivity">
 
-    <com.example.rui.androidstudy.figure.ShapesActivity.MyView
+    <com.example.rui.androidstudy.drawing.ShapesActivity.MyView
         android:layout_width="394dp"
         android:layout_height="424dp" />
 

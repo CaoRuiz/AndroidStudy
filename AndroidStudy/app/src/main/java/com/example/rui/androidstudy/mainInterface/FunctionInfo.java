@@ -1,4 +1,4 @@
-package com.example.rui.androidstudy.info;
+package com.example.rui.androidstudy.mainInterface;
 
 /**
  * Created by zonelue003 on 2017/6/26.

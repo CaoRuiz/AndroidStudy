@@ -1,4 +1,4 @@
-package com.example.rui.androidstudy.figure;
+package com.example.rui.androidstudy.drawing;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -21,10 +21,11 @@ import java.util.Vector;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 
-public class ShapesActivity extends AppCompatActivity {
+public class DrawingActivity extends AppCompatActivity {
 
     RadioButton rbLine;
     RadioButton rbRectangular;
+    RadioButton rbOval;
     RadioGroup radioGroup;
 
     @Override
@@ -32,6 +33,7 @@ public class ShapesActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         layoutInit();
     }
+
     //初始化用户界面
     void layoutInit() {
         MyView myView = new MyView(this);
@@ -61,6 +63,10 @@ public class ShapesActivity extends AppCompatActivity {
         rbRectangular.setText("矩形");
         radioGroup.addView(rbRectangular);
 
+        rbOval = new RadioButton(this);
+        rbOval.setText("椭圆形");
+        radioGroup.addView(rbOval);
+
         rbLine.setChecked(true);
     }
 
@@ -68,6 +74,7 @@ public class ShapesActivity extends AppCompatActivity {
         private Paint paint;
         private Point startPoint;
         private Point endPoint;
+
         public MyView(Context context) {
             super(context);
             paint = new Paint();
@@ -96,6 +103,9 @@ public class ShapesActivity extends AppCompatActivity {
                 } else if (rbRectangular.isChecked()) {
                     shapeVector.add(new Rect(startPoint.x, startPoint.y,
                             endPoint.x, endPoint.y));
+                } else if (rbOval.isChecked()) {
+                    shapeVector.add(new Oval(startPoint.x, startPoint.y,
+                            endPoint.x, endPoint.y));
                 }
             }
             //在工作者线程中被调用刷新界面
@@ -107,7 +117,7 @@ public class ShapesActivity extends AppCompatActivity {
         protected void onDraw(Canvas canvas) {
             super.onDraw(canvas);
             for (int i = 0; i < shapeVector.size(); i++) {
-                shapeVector.get(i).onDraw(canvas,paint);
+                shapeVector.get(i).onDraw(canvas, paint);
             }
         }
     }

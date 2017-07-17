@@ -1,4 +1,4 @@
-package com.example.rui.androidstudy.auxiliary;
+package com.example.rui.androidstudy.mainInterface;
 
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.helper.ItemTouchHelper;

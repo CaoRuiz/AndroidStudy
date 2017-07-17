@@ -1,4 +1,4 @@
-package com.example.rui.androidstudy.View;
+package com.example.rui.androidstudy.slidingMenu;
 
 import android.content.Context;
 import android.content.res.TypedArray;

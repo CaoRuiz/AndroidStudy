@@ -1,17 +1,20 @@
-package com.example.rui.androidstudy;
+package com.example.rui.androidstudy.slidingMenu;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageView;
 
-import com.example.rui.androidstudy.View.SlidingMenu;
+import com.example.rui.androidstudy.R;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
 
-public class SlidingMenuActivity extends AppCompatActivity {
+/**
+ * Created by zonelue003 on 2017/7/10.
+ */
 
+public class SlidingMenueActivity extends AppCompatActivity{
     @Bind(R.id.one)
     ImageView one;
     @Bind(R.id.two)
@@ -36,6 +39,4 @@ public class SlidingMenuActivity extends AppCompatActivity {
     public void toggleMenu(View view) {
         idMenu.toggle();
     }
-
-
 }

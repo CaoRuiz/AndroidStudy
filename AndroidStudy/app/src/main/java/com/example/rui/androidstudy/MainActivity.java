@@ -10,10 +10,13 @@ import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.support.v7.widget.helper.ItemTouchHelper;
 import android.view.View;
 import android.widget.Toast;
-import com.example.rui.androidstudy.adapter.WaterfallFlowAdapter;
-import com.example.rui.androidstudy.auxiliary.ItemTouchHelperCallback;
-import com.example.rui.androidstudy.figure.ShapesActivity;
-import com.example.rui.androidstudy.info.FunctionInfo;
+
+import com.example.rui.androidstudy.drawing.DrawingActivity;
+import com.example.rui.androidstudy.mainInterface.WaterfallFlowAdapter;
+import com.example.rui.androidstudy.mainInterface.ItemTouchHelperCallback;
+import com.example.rui.androidstudy.mainInterface.FunctionInfo;
+import com.example.rui.androidstudy.slidingMenu.SlidingMenueActivity;
+import com.example.rui.androidstudy.socket.SocketActivity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -66,11 +69,15 @@ public class MainActivity extends AppCompatActivity {
             public void onItemClick(View view, int position) {
                 switch (position) {
                     case 0: {
-                        startActivity(new Intent(MainActivity.this, SlidingMenuActivity.class));
+                        startActivity(new Intent(MainActivity.this, SlidingMenueActivity.class));
                     }
                     break;
                     case 1: {
-                        startActivity(new Intent(MainActivity.this, ShapesActivity.class));
+                        startActivity(new Intent(MainActivity.this, DrawingActivity.class));
+                    }
+                    break;
+                    case 2: {
+                        startActivity(new Intent(MainActivity.this, SocketActivity.class));
                     }
                     break;
                 }
@@ -90,7 +97,7 @@ public class MainActivity extends AppCompatActivity {
     private void creatData() {
         setFunctionInfo("抽屉功能", R.drawable.test2);
         setFunctionInfo("画画功能", R.drawable.test2);
-        setFunctionInfo("抽屉功能", R.drawable.test2);
+        setFunctionInfo("socket连接", R.drawable.test2);
         setFunctionInfo("抽屉功能", R.drawable.test2);
         setFunctionInfo("抽屉功能", R.drawable.test2);
     }

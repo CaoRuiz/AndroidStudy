@@ -1,4 +1,4 @@
-package com.example.rui.androidstudy.figure;
+package com.example.rui.androidstudy.drawing;
 
 import android.graphics.Canvas;
 import android.graphics.Paint;
@@ -48,3 +48,23 @@ class Rect extends Shapes {
         canvas.drawRect(left, top, right, bottom, paint);
     }
 }
+
+class Oval extends Shapes {
+    float left;
+    float top;
+    float right;
+    float bottom;
+
+    public Oval(float left, float top, float right, float bottom) {
+        this.left = left;
+        this.top = top;
+        this.right = right;
+        this.bottom = bottom;
+    }
+
+    @Override
+    void onDraw(Canvas canvas, Paint paint) {
+        canvas.drawOval(left, top, right, bottom, paint);
+    }
+}
+
